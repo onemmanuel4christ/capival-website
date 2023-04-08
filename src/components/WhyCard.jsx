@@ -1,5 +1,4 @@
 import React from 'react'
-import Safe from './svgIcons/Safe'
 export default function WhyCard({image, title, description}) {
   return (
     <div

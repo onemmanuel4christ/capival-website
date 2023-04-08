@@ -15,3 +15,12 @@ body{
     box-sizing: border-box;
    font-family: 'Montserrat', sans-serif;
 }
+
+.admin{
+   min-height: 85vh;
+   background-image: url('https://images.pexels.com/photos/4041161/pexels-photo-4041161.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   background-clip: border-box;
+}

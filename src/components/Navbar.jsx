@@ -11,16 +11,16 @@ const Navbar = () => {
 
   return (
     <header className="sticky top-0 left-0 z-50">
-      <nav className="flex justify-between items-center md:px-[110px] md:pb-[26px] bg-white md:pt-[45px] p-10 text-[#3D3333]">
+      <nav className="flex justify-between items-center lg:px-[110px] lg:pb-[26px] bg-white lg:pt-[45px] p-10 text-[#3D3333]">
         <Link to="/">
           <img
             src="https://res.cloudinary.com/dzcpsb02f/image/upload/v1680774680/capival/Logo_jsme6s.png"
             alt=""
-            className="logo md:w-[191px] w-[110px]"
+            className="logo lg:w-[191px] w-[110px]"
           />
         </Link>
 
-        <button className="md:hidden block" onClick={() => setOpen(!open)}>
+        <button className="lg:hidden block" onClick={() => setOpen(!open)}>
           {open ? <GrClose fontSize="24px" /> : <BiMenu fontSize="24px" />}
         </button>
         {open ? (
@@ -39,18 +39,18 @@ const Navbar = () => {
                 onClick={() => setOpen(false)}
               />
             </div>
-            <ul className="md:flex block justify-between items-center gap-[23px] md:p-0 ">
+            <ul className="lg:flex block justify-between items-center gap-[23px] lg:p-0 ">
               <Link to="/">
-                <li className="md:mb-0 mb-[30px] mt-[10px] hover:text-red-600">
+                <li className="lg:mb-0 mb-[30px] mt-[10px] hover:text-red-600">
                   Home
                 </li>
               </Link>
               <Link to="/about-us">
-                <li className="md:mb-0 mb-[30px] hover:text-red-600">
+                <li className="lg:mb-0 mb-[30px] hover:text-red-600">
                   About us
                 </li>
               </Link>
-              <li className="md:mb-0 mb-[30px] ">
+              <li className="lg:mb-0 mb-[30px] ">
                 <div
                   className="flex gap-5 items-center cursor-pointer"
                   onClick={() => setDropdown(!dropdown)}
@@ -78,7 +78,7 @@ const Navbar = () => {
                 )}
               </li>
               <Link to="/about-us">
-                <li className="md:mb-0 mb-[30px] hover:text-red-600">
+                <li className="lg:mb-0 mb-[30px] hover:text-red-600">
                   Contact
                 </li>
               </Link>
@@ -90,13 +90,13 @@ const Navbar = () => {
             </ul>
           </div>
         ) : (
-          <div className="hidden md:block">
-            <ul className="md:flex block justify-between items-center gap-[23px] md:p-0 p-10">
+          <div className="hidden lg:block">
+            <ul className="lg:flex block justify-between items-center gap-[23px] lg:p-0 p-10">
               <Link to="/">
-                <li className="md:mb-0 mb-[30px] hover:text-red-600">Home</li>
+                <li className="lg:mb-0 mb-[30px] hover:text-red-600">Home</li>
               </Link>
               <Link to="/about-us">
-                <li className="md:mb-0 mb-[30px] hover:text-red-600">
+                <li className="lg:mb-0 mb-[30px] hover:text-red-600">
                   About us
                 </li>
               </Link>
@@ -129,7 +129,7 @@ const Navbar = () => {
                 )}
               </li>
               <Link to="/about-us">
-                <li className="md:mb-0 mb-[30px] border-r-2 pr-4 border-[#0000007e] hover:text-red-600">
+                <li className="lg:mb-0 mb-[30px] border-r-2 pr-4 border-[#0000007e] hover:text-red-600">
                   Contact
                 </li>
               </Link>

@@ -4,9 +4,9 @@ import WhyCard from "./WhyCard";
 const WhyCapival = () => {
   return (
     <div className="w-full">
-      <div className="py-[50px] md:px-[110px] p-10 flex lg:flex-row flex-col gap-[23px w-[100%]">
-        <div className="flex-[2] bg p-5">
-          <div className="max-w-[601px]">
+      <div className="py-[50px] lg:px-[110px] p-10 flex lg:flex-row flex-col gap-[23px w-[100%]">
+        <div className="flex-[2] py-5">
+          <div className="max-w-[601px] px-5">
             <h1 className="text-[36px] font-bold text-[#551C24] ">
               Why Capival
             </h1>

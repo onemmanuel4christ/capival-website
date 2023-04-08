@@ -16,10 +16,26 @@ const WhyCapival = () => {
             </p>
           </div>
           <div className="grid lg:grid-cols-2 grid-cols-1 gap-[29px]  ">
-            <WhyCard />
-            <WhyCard />
-            <WhyCard />
-            <WhyCard />
+            <WhyCard
+              image="https://res.cloudinary.com/dzcpsb02f/image/upload/v1680970702/capival/safe_dltneb.png"
+              title="Safe and Secure"
+              description="Your peace of mind is guaranteed when you transact with us. No need to fret."
+            />
+            <WhyCard
+              image="https://res.cloudinary.com/dzcpsb02f/image/upload/v1680974363/capival/hand_ygvriw.svg"
+              title="Easy and Accessible"
+              description="Access our products and services anywhere, anytime."
+            />
+            <WhyCard
+              image="https://res.cloudinary.com/dzcpsb02f/image/upload/v1680974363/capival/contact_geywyk.svg"
+              title="Contact Support"
+              description="Our quick contact service is ready to serve and cater to your needs."
+            />
+            <WhyCard
+              image="https://res.cloudinary.com/dzcpsb02f/image/upload/v1680974363/capival/fast_rrppgr.svg"
+              title="Fast Transaction"
+              description="Stress-free transactions are our thing. Access our range of products and services without hassle."
+            />
           </div>
         </div>
         <div className="flex-[1] relative flex justify-end items-end">
